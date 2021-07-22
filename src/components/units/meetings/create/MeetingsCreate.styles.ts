@@ -3,8 +3,9 @@ import { StyleSheet } from 'react-native'
 export const styles = StyleSheet.create({
   mainView: {
     flex: 1,
-    paddingTop: 80,
-    paddingHorizontal: 20
+    paddingTop: 20,
+    paddingHorizontal: 20,
+    backgroundColor: '#ffffff'
   },
   textInput: {
     marginBottom: 8
@@ -31,9 +32,10 @@ export const styles = StyleSheet.create({
   title: {
     fontWeight: 'bold',
     fontSize: 12,
+    width: '30%',
   },
   text: {
-
+    fontSize: 12,
   },
   contentsWrapper: {
     flexDirection: 'row',
@@ -42,24 +44,23 @@ export const styles = StyleSheet.create({
     paddingTop: 10,
     width: 320,
     height: 220,
-    marginBottom: 70,
+    marginBottom: 45,
     paddingLeft: 30,
-    marginTop: 25,
+    marginTop: 15,
   },
   button: {
-    marginLeft: 25,
+    marginLeft: 15,
     width: '90%',
     height: 40,
     alignItems: 'center',
     justifyContent: 'center',
     borderWidth: 1,
     borderColor: '#bdbdbd',
-    backgroundColor: '#bdbdbd',
     borderRadius: 20
   },
   buttonText: {
     fontSize: 18,
     fontWeight: 'bold',
     color: '#ffffff'
-  }
+  },
 })

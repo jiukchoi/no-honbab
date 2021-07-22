@@ -10,13 +10,10 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@emotion/native": "^11.0.0",
-    "@emotion/react": "^11.4.0",
-    "@react-native-community/masked-view": "0.1.11",
     "@react-navigation/bottom-tabs": "5.11.11",
     "@react-navigation/native": "5.9.4",
-    "@react-navigation/stack": "5.14.5",
-    "package.json": "^2.0.1",
+    "graphql": "15.5.1",
+    "package.json": "2.0.1",
     "react": "17.0.1",
     "react-native": "0.64.2",
     "react-native-gesture-handler": "1.10.3",
@@ -30,6 +27,7 @@
     "@babel/core": "7.14.8",
     "@babel/runtime": "7.14.8",
     "@react-native-community/eslint-config": "3.0.0",
+    "@types/react-native": "0.64.12",
     "babel-jest": "27.0.6",
     "eslint": "7.31.0",
     "jest": "27.0.6",
