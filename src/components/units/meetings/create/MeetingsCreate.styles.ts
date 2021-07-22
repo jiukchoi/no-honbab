@@ -31,9 +31,10 @@ export const styles = StyleSheet.create({
   title: {
     fontWeight: 'bold',
     fontSize: 12,
+    width: '30%',
   },
   text: {
-
+    fontSize: 12,
   },
   contentsWrapper: {
     flexDirection: 'row',
@@ -61,5 +62,5 @@ export const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: 'bold',
     color: '#ffffff'
-  }
+  },
 })

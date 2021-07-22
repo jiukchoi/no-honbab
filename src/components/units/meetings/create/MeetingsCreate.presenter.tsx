@@ -44,11 +44,17 @@ const CreateUI = ({ title, setTitle }) => {
             <Text style={styles.title} >
               주최자
             </Text>
+            <Text style={styles.text}>
+              민성우
+            </Text>
           </View>
           <View style={styles.subView}>
             <Image style={styles.tagImg} source={require('../../../../../public/meetings/tag-beige.png')} />
             <Text style={styles.title} >
               모집인원
+            </Text>
+            <Text>
+              
             </Text>
           </View>
           <View style={styles.subView}>
