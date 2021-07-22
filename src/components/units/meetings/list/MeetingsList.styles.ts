@@ -49,11 +49,19 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
     width: 335,
     height: 125,
+    borderWidth: 0.3,
     borderRadius: 20,
-    borderWidth: 1,
     borderColor: '#bdbdbd',
-    marginBottom: 10
-
+    marginBottom: 10,
+    backgroundColor: "#ffffff",
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 2,
+      height: 3,
+    },
+    shadowOpacity: 0.4,
+    shadowRadius: 3.84,
+    elevation: 5,
   },
   meetingLeftWrapper: {
     alignItems: 'center',

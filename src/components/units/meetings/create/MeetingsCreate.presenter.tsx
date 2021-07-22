@@ -19,8 +19,8 @@ const CreateUI = ({ input, setInput, isState, setIsState }) => {
         <Text style={{color: '#E24E4A', marginRight: 15, fontSize: 12}}>00일 뒤 모집 마감</Text>
         <Text style={{fontSize: 12, color: '#adada3'}}>모집일 2일 전에 자동으로 마감됩니다.</Text>
       </View>
-      <View style={{paddingLeft: 20}}>
-        <View style={{flexDirection: 'row', marginBottom: 8, alignItems: 'center', justifyContent: 'space-between', width: 320}}>
+      <View>
+        <View style={{flexDirection: 'row', marginBottom: 8, alignItems: 'center', justifyContent: 'space-between', width: 340, paddingLeft: 20}}>
           <View style={{flexDirection: 'row', alignItems: 'center', marginBottom: 10}}>
             <Image
               style={{marginRight: 10}}
@@ -32,7 +32,7 @@ const CreateUI = ({ input, setInput, isState, setIsState }) => {
             <Image source={require('../../../../../public/meetings/arrow-red.png')} />
           </TouchableOpacity>
         </View>
-        <View style={{flexDirection: 'row', marginBottom: 8, alignItems: 'center', justifyContent: 'space-between', width: 320}}>
+        <View style={{flexDirection: 'row', marginBottom: 8, alignItems: 'center', justifyContent: 'space-between', width: 340, paddingLeft: 20}}>
           <View style={{flexDirection: 'row', alignItems: 'flex-start', marginBottom: 10}}>
             <Image
               style={{marginRight: 10, marginTop: 3}}
