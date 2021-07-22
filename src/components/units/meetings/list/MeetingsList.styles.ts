@@ -4,6 +4,7 @@ export const styles = StyleSheet.create({
   mainView: {
     flex: 1,
     paddingTop: 50,
+    backgroundColor: '#ffffff',
   },
   subView: {
     paddingTop: 15,
