@@ -1,46 +1,46 @@
-import { StyleSheet } from 'react-native'
+import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
   mainView: {
     flex: 1,
     paddingTop: 20,
     paddingHorizontal: 20,
-    backgroundColor: '#ffffff'
+    backgroundColor: "#ffffff",
   },
   textInput: {
-    marginBottom: 8
+    marginBottom: 8,
   },
   remarksWrapper: {
-    flexDirection: 'row',
-    marginBottom: 20
+    flexDirection: "row",
+    marginBottom: 20,
   },
   subView: {
-    flexDirection: 'row',
+    flexDirection: "row",
     borderWidth: 1,
-    borderColor: '#bdbdbd',
-    alignItems: 'center',
+    borderColor: "#bdbdbd",
+    alignItems: "center",
     width: 320,
     height: 40,
     marginBottom: 10,
     paddingLeft: 30,
   },
   tagImg: {
-    position: 'absolute',
+    position: "absolute",
     top: 0,
     left: 10,
   },
   title: {
-    fontWeight: 'bold',
+    fontWeight: "bold",
     fontSize: 12,
-    width: '30%',
+    width: "30%",
   },
   text: {
     fontSize: 12,
   },
   contentsWrapper: {
-    flexDirection: 'row',
+    flexDirection: "row",
     borderWidth: 1,
-    borderColor: '#bdbdbd',
+    borderColor: "#bdbdbd",
     paddingTop: 10,
     width: 320,
     height: 220,
@@ -49,18 +49,18 @@ export const styles = StyleSheet.create({
     marginTop: 15,
   },
   button: {
-    marginLeft: 25,
-    width: '90%',
+    marginLeft: 15,
+    width: "90%",
     height: 40,
-    alignItems: 'center',
-    justifyContent: 'center',
+    alignItems: "center",
+    justifyContent: "center",
     borderWidth: 1,
-    borderColor: '#bdbdbd',
-    borderRadius: 20
+    borderColor: "#bdbdbd",
+    borderRadius: 20,
   },
   buttonText: {
     fontSize: 18,
-    fontWeight: 'bold',
-    color: '#ffffff'
+    fontWeight: "bold",
+    color: "#ffffff",
   },
-})
+});
