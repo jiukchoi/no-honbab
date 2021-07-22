@@ -76,7 +76,7 @@ const CreateUI = ({ input, setInput, isState, setIsState }) => {
                 onValueChange={(itemValue, itemIndex) => setInput({...input, time: {...input.time, month: itemValue}})}
               >
                 {new Array(12).fill(1).map((_, i) => (
-                  <Picker.Item label={`${i+1}월`} value={i+1} />
+                  <Picker.Item key={i} label={`${i+1}월`} value={i+1} />
                 ))}
               </Picker>
             )}
@@ -86,7 +86,7 @@ const CreateUI = ({ input, setInput, isState, setIsState }) => {
                 onValueChange={(itemValue, itemIndex) => setInput({...input, time: {...input.time, date: itemValue}})}
               >
                 {new Array(31).fill(1).map((_, i) => (
-                  <Picker.Item label={`${i+1}일`} value={i+1} />
+                  <Picker.Item key={i} label={`${i+1}일`} value={i+1} />
                 ))}
               </Picker>
             )}
@@ -98,8 +98,8 @@ const CreateUI = ({ input, setInput, isState, setIsState }) => {
                   onValueChange={(itemValue, itemIndex) => setInput({...input, time: {...input.time, startTime: {...input.time.startTime, hours: itemValue}}})}
                 >
                   {new Array(12).fill(1).map((_, i) => {
-                    if(i < 9) return <Picker.Item label={`0${i+1}시`} value={`0${i+1}`} />
-                    else return <Picker.Item label={`${i+1}시`} value={i+1} />
+                    if(i < 9) return <Picker.Item key={i} label={`0${i+1}시`} value={`0${i+1}`} />
+                    else return <Picker.Item key={i} label={`${i+1}시`} value={i+1} />
                   })}
                 </Picker>
                 <Picker
@@ -108,8 +108,8 @@ const CreateUI = ({ input, setInput, isState, setIsState }) => {
                   onValueChange={(itemValue, itemIndex) => setInput({...input, time: {...input.time, startTime: {...input.time.startTime, mins: itemValue}}})}
                 >
                   {new Array(60).fill(1).map((_, i) => {
-                    if(i < 9) return <Picker.Item label={`0${i+1}분`} value={`0${i+1}`} />
-                    else return <Picker.Item label={`${i+1}분`} value={i+1} />
+                    if(i < 9) return <Picker.Item key={i} label={`0${i+1}분`} value={`0${i+1}`} />
+                    else return <Picker.Item key={i} label={`${i+1}분`} value={i+1} />
                   })}
                 </Picker>
               </View>
@@ -122,8 +122,8 @@ const CreateUI = ({ input, setInput, isState, setIsState }) => {
                   onValueChange={(itemValue, itemIndex) => setInput({...input, time: {...input.time, endTime: {...input.time.endTime, hours: itemValue}}})}
                 >
                   {new Array(12).fill(1).map((_, i) => {
-                    if(i < 9) return <Picker.Item label={`0${i+1}시`} value={`0${i+1}`} />
-                    else return <Picker.Item label={`${i+1}시`} value={i+1} />
+                    if(i < 9) return <Picker.Item key={i} label={`0${i+1}시`} value={`0${i+1}`} />
+                    else return <Picker.Item key={i} label={`${i+1}시`} value={i+1} />
                   })}
                 </Picker>
                 <Picker
@@ -132,8 +132,8 @@ const CreateUI = ({ input, setInput, isState, setIsState }) => {
                   onValueChange={(itemValue, itemIndex) => setInput({...input, time: {...input.time, endTime: {...input.time.endTime, mins: itemValue}}})}
                 >
                   {new Array(60).fill(1).map((_, i) => {
-                    if(i < 9) return <Picker.Item label={`0${i+1}분`} value={`0${i+1}`} />
-                    else return <Picker.Item label={`${i+1}분`} value={i+1} />
+                    if(i < 9) return <Picker.Item key={i} label={`0${i+1}분`} value={`0${i+1}`} />
+                    else return <Picker.Item key={i} label={`${i+1}분`} value={i+1} />
                   })}
                 </Picker>
               </View>

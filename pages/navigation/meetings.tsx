@@ -3,6 +3,7 @@ import { createStackNavigator } from '@react-navigation/stack'
 import CreatePage from '../screens/meetings/create'
 import ListPage from '../screens/meetings'
 import { Image } from 'react-native'
+import ReadPage from '../screens/meetings/read'
 
 const MeetingsNavigator = () => {
   const Stact = createStackNavigator()
@@ -25,6 +26,22 @@ const MeetingsNavigator = () => {
         }}
         name='create'
         component={CreatePage}
+      />
+      <Stact.Screen
+        options={{
+          headerShown: true,
+          headerBackTitleStyle: {
+            fontSize: 12,
+            color: '#E24E4A',
+            marginLeft: 10,
+          },
+          headerBackImage: () => (
+            <Image style={{marginLeft: 20}} source={require('../../public/meetings/arrow-left.png')} />
+          ),
+          headerTitle: null,
+        }}
+        name='read'
+        component={ReadPage}
       />
     </Stact.Navigator>
   )
