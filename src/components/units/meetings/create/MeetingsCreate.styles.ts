@@ -23,6 +23,15 @@ export const styles = StyleSheet.create({
     height: 40,
     marginBottom: 10,
     paddingLeft: 30,
+    backgroundColor: "#ffffff",
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 1,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
   },
   tagImg: {
     position: "absolute",
@@ -38,15 +47,30 @@ export const styles = StyleSheet.create({
     fontSize: 12,
   },
   contentsWrapper: {
+<<<<<<< HEAD
     flexDirection: "row",
     borderWidth: 1,
     borderColor: "#bdbdbd",
+=======
+    flexDirection: 'row',
+    borderWidth: 0.4,
+    borderColor: '#bdbdbd',
+>>>>>>> cc6cfdd5e512fc67833d39c6ca2b62356fcd723b
     paddingTop: 10,
-    width: 320,
+    width: 350,
     height: 220,
     marginBottom: 45,
     paddingLeft: 30,
     marginTop: 15,
+    backgroundColor: "#ffffff",
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 1,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
   },
   button: {
     marginLeft: 15,

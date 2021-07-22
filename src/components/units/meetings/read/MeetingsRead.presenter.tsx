@@ -14,8 +14,8 @@ const ReadUI = () => {
       <View style={styles.remarksWrapper}>
         <Text style={{color: '#E24E4A', marginRight: 15, fontSize: 12}}>00일 뒤 모집 마감</Text>
       </View>
-      <View style={{paddingLeft: 20}}>
-        <View style={{flexDirection: 'row', marginBottom: 8, alignItems: 'center', justifyContent: 'space-between', width: 320}}>
+      <View>
+        <View style={{flexDirection: 'row', marginBottom: 8, alignItems: 'center', justifyContent: 'space-between', width: 320, paddingLeft: 20}}>
           <View style={{flexDirection: 'row', alignItems: 'center', marginBottom: 10}}>
             <Image
               style={{marginRight: 10}}
@@ -24,7 +24,7 @@ const ReadUI = () => {
             <Text>07.22 17:00 ~ 18:00</Text>
           </View>
         </View>
-        <View style={{flexDirection: 'row', marginBottom: 8, alignItems: 'center', justifyContent: 'space-between', width: 320}}>
+        <View style={{flexDirection: 'row', marginBottom: 8, alignItems: 'center', justifyContent: 'space-between', width: 320, paddingLeft: 20}}>
           <View style={{flexDirection: 'row', alignItems: 'flex-start', marginBottom: 10}}>
             <Image
               style={{marginRight: 10, marginTop: 3}}
