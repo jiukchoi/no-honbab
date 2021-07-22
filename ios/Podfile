@@ -23,7 +23,11 @@ target 'no_honbab' do
   # you should disable the next line.
   use_flipper!()
 
+
   post_install do |installer|
     react_native_post_install(installer)
   end
+
+
+
 end
