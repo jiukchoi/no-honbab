@@ -49,7 +49,7 @@ export const styles = StyleSheet.create({
     marginTop: 15,
   },
   button: {
-    marginLeft: 25,
+    marginLeft: 15,
     width: '90%',
     height: 40,
     alignItems: 'center',
