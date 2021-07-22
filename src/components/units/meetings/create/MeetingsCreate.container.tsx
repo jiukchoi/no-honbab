@@ -17,7 +17,7 @@ const Create = () => {
       },
     },
     place: "",
-    recruitment: 0,
+    recruitment: "",
     foodType: "",
     contents: "",
   });

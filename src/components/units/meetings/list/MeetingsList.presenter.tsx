@@ -56,7 +56,7 @@ const ListUI = ({inputText, setInputText}) => {
         </Text>
       </View>
       <ScrollView>
-        <View style={{alignItems: 'center'}}>
+        <TouchableOpacity onPress={()=>navigation.navigate('read')} style={{alignItems: 'center'}}>
           <View style={styles.meetingWrapper}>
             <View style={styles.meetingLeftWrapper}>
               <Text style={{color: '#ffffff', fontWeight: 'bold'}}>한식</Text>
@@ -92,116 +92,8 @@ const ListUI = ({inputText, setInputText}) => {
               </View>
             </View>
           </View>
-        </View>
-        <View style={{alignItems: 'center'}}>
-          <View style={styles.meetingWrapper}>
-            <View style={styles.meetingLeftWrapper}>
-              <Text style={{color: '#ffffff', fontWeight: 'bold'}}>한식</Text>
-            </View>
-            <View style={styles.meetingRightWrapper}>
-              <View style={{flexDirection: 'row', justifyContent: 'space-between', width: 250}}>
-                <Text style={{color: '#e63832'}}>5일 뒤 모집 마감</Text>
-                <View style={{flexDirection: 'row', width: 60, justifyContent: 'space-between', alignItems: 'center'}}>
-                  <Text style={{color: '#bdbdbd'}}>모집원</Text>
-                  <Text style={{color: '#e63832'}}>1/4</Text>
-                </View>
-              </View>
-              <View style={{marginBottom: 8}}>
-                <Text style={{fontWeight: 'bold', fontSize: 18}}>감자탕 먹을 사람 모여!</Text>
-              </View>
-              <View style={{paddingLeft: 30}}>
-                <View style={{flexDirection: 'row', alignItems: 'center', marginBottom: 8}}>
-                  <Image
-                    style={{marginRight: 10}}
-                    source={require('../../../../../public/meetings/time.png')}
-                  />
-                  <Text>mm.dd (목) tt:tt ~ tt:tt </Text>
-                </View>
-                <View style={{flexDirection: 'row', alignItems: 'flex-start'}}>
-                  <Image
-                    style={{marginRight: 10, marginTop: 3}}
-                    source={require('../../../../../public/meetings/location.png')} />
-                  <View>
-                    <Text>일미집 역삼점</Text>
-                    <Text style={{fontSize: 10, color: '#adada3'}}>서울 강남구 논현로 409 1층</Text>
-                  </View>
-                </View>
-              </View>
-            </View>
-          </View>
-        </View><View style={{alignItems: 'center'}}>
-          <View style={styles.meetingWrapper}>
-            <View style={styles.meetingLeftWrapper}>
-              <Text style={{color: '#ffffff', fontWeight: 'bold'}}>한식</Text>
-            </View>
-            <View style={styles.meetingRightWrapper}>
-              <View style={{flexDirection: 'row', justifyContent: 'space-between', width: 250}}>
-                <Text style={{color: '#e63832'}}>5일 뒤 모집 마감</Text>
-                <View style={{flexDirection: 'row', width: 60, justifyContent: 'space-between', alignItems: 'center'}}>
-                  <Text style={{color: '#bdbdbd'}}>모집원</Text>
-                  <Text style={{color: '#e63832'}}>1/4</Text>
-                </View>
-              </View>
-              <View style={{marginBottom: 8}}>
-                <Text style={{fontWeight: 'bold', fontSize: 18}}>감자탕 먹을 사람 모여!</Text>
-              </View>
-              <View style={{paddingLeft: 30}}>
-                <View style={{flexDirection: 'row', alignItems: 'center', marginBottom: 8}}>
-                  <Image
-                    style={{marginRight: 10}}
-                    source={require('../../../../../public/meetings/time.png')}
-                  />
-                  <Text>mm.dd (목) tt:tt ~ tt:tt </Text>
-                </View>
-                <View style={{flexDirection: 'row', alignItems: 'flex-start'}}>
-                  <Image
-                    style={{marginRight: 10, marginTop: 3}}
-                    source={require('../../../../../public/meetings/location.png')} />
-                  <View>
-                    <Text>일미집 역삼점</Text>
-                    <Text style={{fontSize: 10, color: '#adada3'}}>서울 강남구 논현로 409 1층</Text>
-                  </View>
-                </View>
-              </View>
-            </View>
-          </View>
-        </View><View style={{alignItems: 'center'}}>
-          <View style={styles.meetingWrapper}>
-            <View style={styles.meetingLeftWrapper}>
-              <Text style={{color: '#ffffff', fontWeight: 'bold'}}>한식</Text>
-            </View>
-            <View style={styles.meetingRightWrapper}>
-              <View style={{flexDirection: 'row', justifyContent: 'space-between', width: 250}}>
-                <Text style={{color: '#e63832'}}>5일 뒤 모집 마감</Text>
-                <View style={{flexDirection: 'row', width: 60, justifyContent: 'space-between', alignItems: 'center'}}>
-                  <Text style={{color: '#bdbdbd'}}>모집원</Text>
-                  <Text style={{color: '#e63832'}}>1/4</Text>
-                </View>
-              </View>
-              <View style={{marginBottom: 8}}>
-                <Text style={{fontWeight: 'bold', fontSize: 18}}>감자탕 먹을 사람 모여!</Text>
-              </View>
-              <View style={{paddingLeft: 30}}>
-                <View style={{flexDirection: 'row', alignItems: 'center', marginBottom: 8}}>
-                  <Image
-                    style={{marginRight: 10}}
-                    source={require('../../../../../public/meetings/time.png')}
-                  />
-                  <Text>mm.dd (목) tt:tt ~ tt:tt </Text>
-                </View>
-                <View style={{flexDirection: 'row', alignItems: 'flex-start'}}>
-                  <Image
-                    style={{marginRight: 10, marginTop: 3}}
-                    source={require('../../../../../public/meetings/location.png')} />
-                  <View>
-                    <Text>일미집 역삼점</Text>
-                    <Text style={{fontSize: 10, color: '#adada3'}}>서울 강남구 논현로 409 1층</Text>
-                  </View>
-                </View>
-              </View>
-            </View>
-          </View>
-        </View>
+        </TouchableOpacity>
+        
       </ScrollView>
     </View>
   )
