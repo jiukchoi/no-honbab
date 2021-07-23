@@ -12,6 +12,7 @@
   "dependencies": {
     "@apollo/client": "3.3.21",
     "@emotion/react": "11.4.0",
+    "@emotion/styled": "11.3.0",
     "@react-native-community/masked-view": "0.1.11",
     "@react-native-picker/picker": "1.16.3",
     "@react-navigation/bottom-tabs": "5.11.11",
