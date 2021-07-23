@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
+import Chat from "../../../src/components/units/chat/chatroom.container";
 
 const ChattingPage = () => {
+  return <Chat />;
+};
 
-  return <></>
-}
-
-export default ChattingPage
+export default ChattingPage;

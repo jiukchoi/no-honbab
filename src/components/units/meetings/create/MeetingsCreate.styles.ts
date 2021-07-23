@@ -47,15 +47,9 @@ export const styles = StyleSheet.create({
     fontSize: 12,
   },
   contentsWrapper: {
-<<<<<<< HEAD
     flexDirection: "row",
     borderWidth: 1,
     borderColor: "#bdbdbd",
-=======
-    flexDirection: 'row',
-    borderWidth: 0.4,
-    borderColor: '#bdbdbd',
->>>>>>> cc6cfdd5e512fc67833d39c6ca2b62356fcd723b
     paddingTop: 10,
     width: 350,
     height: 220,
