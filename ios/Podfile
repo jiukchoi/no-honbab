@@ -7,6 +7,8 @@ target 'no_honbab' do
   # React Native Maps dependencies
   rn_maps_path = '../node_modules/react-native-maps'
   pod 'react-native-google-maps', :path => rn_maps_path
+  # React Native Google Auth dependencies
+  pod 'GoogleSignIn', '~> 5.0.2'
 
   config = use_native_modules!
 
