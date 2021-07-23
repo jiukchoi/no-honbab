@@ -1,25 +1,25 @@
-import { StyleSheet } from 'react-native'
+import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
   mainView: {
     flex: 1,
     paddingTop: 20,
     paddingHorizontal: 20,
-    backgroundColor: '#ffffff'
+    backgroundColor: "#ffffff",
   },
   textInput: {
-    marginBottom: 8
+    marginBottom: 8,
   },
   remarksWrapper: {
-    flexDirection: 'row',
-    marginBottom: 20
+    flexDirection: "row",
+    marginBottom: 20,
   },
   subView: {
-    flexDirection: 'row',
-    borderWidth: 0.4,
-    borderColor: '#bdbdbd',
-    alignItems: 'center',
-    width: 350,
+    flexDirection: "row",
+    borderWidth: 1,
+    borderColor: "#bdbdbd",
+    alignItems: "center",
+    width: 320,
     height: 40,
     marginBottom: 10,
     paddingLeft: 30,
@@ -34,22 +34,28 @@ export const styles = StyleSheet.create({
     elevation: 5,
   },
   tagImg: {
-    position: 'absolute',
+    position: "absolute",
     top: 0,
     left: 10,
   },
   title: {
-    fontWeight: 'bold',
+    fontWeight: "bold",
     fontSize: 12,
-    width: '30%',
+    width: "30%",
   },
   text: {
     fontSize: 12,
   },
   contentsWrapper: {
+<<<<<<< HEAD
+    flexDirection: "row",
+    borderWidth: 1,
+    borderColor: "#bdbdbd",
+=======
     flexDirection: 'row',
     borderWidth: 0.4,
     borderColor: '#bdbdbd',
+>>>>>>> cc6cfdd5e512fc67833d39c6ca2b62356fcd723b
     paddingTop: 10,
     width: 350,
     height: 220,
@@ -68,26 +74,17 @@ export const styles = StyleSheet.create({
   },
   button: {
     marginLeft: 15,
-    width: '90%',
+    width: "90%",
     height: 40,
-    alignItems: 'center',
-    justifyContent: 'center',
-    borderWidth: 0.3,
-    borderColor: '#bdbdbd',
+    alignItems: "center",
+    justifyContent: "center",
+    borderWidth: 1,
+    borderColor: "#bdbdbd",
     borderRadius: 20,
-    backgroundColor: "#ffffff",
-    shadowColor: "#000",
-    shadowOffset: {
-      width: 3,
-      height: 5,
-    },
-    shadowOpacity: 0.25,
-    shadowRadius: 3.84,
-    elevation: 5,
   },
   buttonText: {
     fontSize: 18,
-    fontWeight: 'bold',
-    color: '#ffffff'
+    fontWeight: "bold",
+    color: "#ffffff",
   },
-})
+});

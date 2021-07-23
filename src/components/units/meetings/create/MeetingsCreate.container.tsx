@@ -1,5 +1,5 @@
-import React from 'react'
-import CreateUI from './MeetingsCreate.presenter'
+import React from "react";
+import CreateUI from "./MeetingsCreate.presenter";
 
 const Create = () => {
   const [input, setInput] = React.useState({
@@ -20,7 +20,7 @@ const Create = () => {
     recruitment: "",
     foodType: "",
     contents: "",
-  })
+  });
 
   const [isState, setIsState] = React.useState({
     time: {
@@ -32,17 +32,22 @@ const Create = () => {
     },
     place: false,
     create: false,
-  })
+  });
 
   React.useEffect(() => {
-    if (input.title &&
-    input.recruitment &&
-    input.foodType &&
-    input.contents) setIsState({...isState, create: true})
-    else setIsState({...isState, create: false})
-  }, [input])
+    if (input.title && input.recruitment && input.foodType && input.contents)
+      setIsState({ ...isState, create: true });
+    else setIsState({ ...isState, create: false });
+  }, [input]);
 
-  return <CreateUI input={input} setInput={setInput} isState={isState} setIsState={setIsState} />
-}
+  return (
+    <CreateUI
+      input={input}
+      setInput={setInput}
+      isState={isState}
+      setIsState={setIsState}
+    />
+  );
+};
 
-export default Create
+export default Create;
